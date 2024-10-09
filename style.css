@@ -12,13 +12,13 @@ header {
 }
 
 header nav {
-  background: transparent;
   transition: background-color 0.5s ease;
   animation: nav 1.6s ease-in-out;
 }
 
 header nav.scrolled {
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
